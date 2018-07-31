@@ -18,7 +18,7 @@ import models.Tarefa;
 public class TarefasController {
 	@RequestMapping("tarefas/form")
 	public String form(){
-		System.out.println("Acessando formulario de tarefa.");
+		System.out.println("Acessando formulario de tarefa. ");
 		return "tarefas/form";
 	}
 	
